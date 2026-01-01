@@ -1,0 +1,114 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: background 0.4s ease;
+}
+
+.header.scrolled {
+    background-color: white;
+}
+
+.black_logo {
+    height: 50px;
+}
+
+/* DESKTOP MENU */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.menu-black {
+    color: black;
+}
+
+.menu-white {
+    color: white;
+}
+
+.menu > button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #978667;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+}
+
+.menu > button:hover {
+    background-color: #4b514d;
+}
+
+/* HAMBURGER */
+.humburger {
+    display: none;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.humburger.black i {
+    color: black;
+}
+
+.humburger.white i {
+    color: white;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    width: 220px;
+    height: calc(100vh - 70px);
+    box-shadow: -4px 0 10px rgba(0,0,0,0.1);
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.mobile-menu ul li {
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    .header {
+        padding: 0 20px;
+    }
+}
