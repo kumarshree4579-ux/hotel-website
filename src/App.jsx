@@ -11,6 +11,8 @@ import Gallery from './Components/Gallery'
 import LocalActivities from './Components/LocalActivities'
 import Accordions from './Components/Accordions'
 import ContactSection from './Components/ContactSection'
+import Maps from './Components/Maps'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -26,7 +28,8 @@ const App = () => {
     <LocalActivities/>
     <Accordions/>
     <ContactSection/>
-    
+    <Maps/>
+    <Footer/>
     {/* <About/> */}
 
     </>

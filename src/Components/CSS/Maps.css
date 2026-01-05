@@ -1,0 +1,12 @@
+.iframe_maps {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.iframe_maps>iframe {
+    width: 99vw;
+    height: 60vh;
+    border: none;
+    filter: grayscale(80%);
+}

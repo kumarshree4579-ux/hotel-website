@@ -51,7 +51,11 @@
 .tabs .active {
     border-bottom: 2px solid #000;
 }
-
+.span-btn{
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
