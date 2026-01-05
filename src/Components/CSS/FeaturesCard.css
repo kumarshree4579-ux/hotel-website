@@ -1,0 +1,28 @@
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 5rem 8%;
+
+}
+
+.features>.features_card>i {
+    font-size: 3.875rem;
+    color: #978667;
+    /* font-weight:bold; */
+    line-height: 1.2;
+}
+
+@media (max-width:768px) {
+    
+
+    
+    .features{
+        flex-wrap: wrap;
+    }
+    .features>.features_card{
+        max-width: 40%;
+    }
+}

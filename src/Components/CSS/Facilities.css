@@ -1,0 +1,46 @@
+.main-facilities {
+    text-align: center;
+}
+.facilities-title>small {
+    color: #978667;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.facilities-title>h2 {
+    font-weight: 700;
+    font-size: 2.375rem;
+    
+}
+/* Marquee */
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 100px;
+  overflow: hidden;
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: -60px;
+}
+.marquee .track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 140s linear infinite;
+}
+.marquee .content {
+  opacity: 0.05;
+  line-height: 1.2;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}

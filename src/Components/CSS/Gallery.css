@@ -1,0 +1,80 @@
+.gallery{
+    background-color: #faf8f5;
+    padding: 120px 0;
+}
+.gallery>.title {
+    text-align: center;
+    padding: 10px 8%;
+    color: #333;
+}
+
+.gallery>.title>small {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #978667;
+    font-weight: 600;
+    letter-spacing: 1.2;
+}
+
+.gallery>.title>h2 {
+    font-size: 2.375rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.gallery_swiper>.gallery-swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_swiper>.gallery-swiper-slide img {
+    display: block;
+    width: 33vw;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery_swiper>.gallery-swiper-slide {
+    /* width: 100vw; */
+    /* padding: 0 2%; */
+}
+
+.gallery_swiper>.gallery-swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+
+.gallery_swiper>.gallery-swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+.gallery-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-btn> button{
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 2px solid #24262d;
+    color: #24262d;
+    background-color: transparent;
+}
+.gallery-btn> button:hover{
+    background-color: #24262d;
+    color: #fff;
+    cursor: pointer;
+    /* font-weight: 700; */
+}

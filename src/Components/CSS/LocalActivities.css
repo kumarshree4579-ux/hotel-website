@@ -1,0 +1,48 @@
+.activities-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 60px;
+    padding: 20px;
+}
+
+.activities-card>.local-img,
+.activities-card>.local-text {
+    max-width: 45vw;
+}
+.local-text{
+    padding:0 100px;
+     color: #333333;
+
+}
+
+.local-text>small {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #978667;
+    font-weight: 600;
+    letter-spacing: 1.2;
+}
+.local-text>h2{
+     font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.activities-card>.local-img>img {
+    width: 40vw;
+    height: 45vh;
+    border-radius: 20px;
+}
+
+.activities-card:nth-child(even) .local-img {
+    order: 2;
+}
+
+.activities-card:nth-child(even) .local-text {
+    order: 1;
+}
