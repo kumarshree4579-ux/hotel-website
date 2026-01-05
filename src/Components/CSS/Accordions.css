@@ -1,0 +1,90 @@
+.accordions>.title {
+    text-align: center;
+    padding: 10px 8%;
+    color: #333;
+}
+
+.accordions {
+    margin-bottom: 160px;
+}
+
+.accordions>.title>small {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #978667;
+    font-weight: 600;
+    letter-spacing: 1.2;
+}
+
+.accordions>.title>h2 {
+    font-size: 2.375rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.accordions-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #f7f7f7;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.accordions-item {
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.accordions-header {
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accordions-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.icon {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1a1a1a;
+    width: 24px;
+    text-align: center;
+}
+
+.accordions-content {
+    padding: 0 22px 22px;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+.accordions-item:last-child {
+    margin-bottom: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

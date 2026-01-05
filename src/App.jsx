@@ -9,6 +9,8 @@ import Facilities from './Components/Facilities'
 import ExperienceVid from './Components/ExperienceVid'
 import Gallery from './Components/Gallery'
 import LocalActivities from './Components/LocalActivities'
+import Accordions from './Components/Accordions'
+import ContactSection from './Components/ContactSection'
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
     <ExperienceVid/>
     <Gallery/>
     <LocalActivities/>
+    <Accordions/>
+    <ContactSection/>
     
     {/* <About/> */}
 
